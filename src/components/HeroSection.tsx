@@ -54,7 +54,6 @@ export default function HeroSection() {
             Book a Free Consult
           </button>
         </motion.div>
-        ={" "}
         <motion.div
           initial={prefersReducedMotion ? {} : { opacity: 0, y: -15 }}
           animate={prefersReducedMotion ? {} : { opacity: 1, y: 0 }}
